@@ -1,0 +1,3 @@
+"ID","companyName","firstName","lastName","billingAddress","city","state","zip","email","companyWebsite","phone","fax","shipAddress","shipCity","shipState","shipZip","shipPhone"
+"1","Contonso, Ltd","Test","Customer 1","Test St #1","Chicago","Illinois","12345","testuser1@example.com","www.test1.com","123-4567","123-4567","Test St #1","Chicago","Illinois","12345","123-4567"
+"2","TestCompany, Ltd","Test","Customer 2","Test St #2","Irvine City","Illinois","12345","testuser2@example.com","www.test2.com","123-4567","123-4567","Test St #2","Irvine City","Illinois","12345","123-4567"

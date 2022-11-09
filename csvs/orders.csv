@@ -1,0 +1,2 @@
+"ID","customerID","employeeID","orderDate","purchaseOrderNumber","shipDate","shippingMethodID","freightCharge","taxes","paymentReceived","comment"
+"1","1","1","2022-11-09","PO-0001","2022-11-10","1","15000","10000","0","test #1"
