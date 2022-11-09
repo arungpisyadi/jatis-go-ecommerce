@@ -38,3 +38,7 @@ ON o.shippingMethodID = sm.ID
 WHERE sm.method LIKE 'UPS Ground';
 
 # List of total cost (including tax and freight charge) for every order sorted by ship date.
+SELECT o.ID, o.customerID, o.employeeID, o.orderDate, o.purchaseOrderNumber, o.shipDate, o.shippingMethodID, od.productID, ((od.price-od.discount)+o.freightCharge+o.taxes) AS total
+FROM orders o LEFT JOIN order_details od
+ON o.ID = od.orderID
+ORDER BY o.shipDate DESC;
